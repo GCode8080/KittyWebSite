@@ -1,0 +1,52 @@
+<html>
+<!DOCTYPE html>
+<html lang="en">
+
+<!--This code is copy righted under Kibblez inc.© and if you steel the contents of it, kneecaps will be broken!-->
+
+    <!-- links and titles -->
+    <head>
+        <meta charset="utf-8"/>
+        <title>Kittywebsite</title>
+        <link rel = "stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <h1 id="heading 1">Welcome to the kitty website</h1>
+
+        <h2>On this website you can change the photo to a different photo. You can change the the header color to Blue, Red, Green, and back to black. And last but maybe least you can display the time.</h2>
+
+        <div id="sideBar">
+
+            <!--color changing buttons-->
+            <button id="bt1">Red</button>
+            <button id="bt2">Green</button>
+            <button id="bt3">Blue</button>
+            <button id="bt4">Black</button>
+
+            <!--photo changing buttons-->
+            <input id="photo2Bt" type="button" onclick="changeImageBack()" value="Photo 1" />
+            <input id="photo1Bt" type="button" onclick="changeImage()" value="Photo 2" />
+            <input id="photo3Bt" type="button" onclick="changeImageAgain()" value="Photo 3" />
+
+            <!--Time display-->
+            <button id="timeBt">display time</button>
+
+        </div>
+
+        <p> <img id="photo" src="https://image.shutterstock.com/image-photo/cute-cat-lying-on-his-600w-572338033.jpg"></p>
+
+        <!--Time display-->
+        <div id="time"></div>
+
+        <p id="versionNum">Version: Alpha_1.2</p>
+
+        <p id="copyRight">
+            This website is copy righted under Kibblez inc.© and if you steel
+            the contents of it, <b>kneecaps will be broken!</b>
+        </p>
+
+        <!--why must I put the script link at the bottom-->
+        <script src="script.js"></script>
+    </body>
+</html>

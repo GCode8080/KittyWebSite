@@ -1,0 +1,132 @@
+/*This code is copy righted under Kibblez inc.© and if you steel the contents of it, kneecaps will be broken!*/
+
+body {
+    background-color: rgb(185, 185, 185); /*color of everything*/
+}
+
+h1 {
+    text-align:center;
+}
+
+h2 {
+    background-color: rgb(185, 185, 185);
+    text-align: center;
+    padding-left: 130px;
+}
+
+#sideBar {
+    color: black;
+    text-align: left;
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(148, 147, 147);
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin-top: 0%;
+}
+
+#time {
+    color: black;
+    margin-left: 36%;
+}
+
+#photo{
+    margin-left: 30%; /*guess the text align-center don't like images*/
+}
+
+#versionNum {
+    margin-top: 5%;
+    margin-left: 90%;
+}
+
+#copyRight {
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+/*Buttons*/
+#bt1 {
+    margin-left: 10%;
+    height: 30px;
+    width: 100px;
+}
+
+#bt2 {
+    margin-left: 10%;
+    height: 30px;
+    width: 100px;
+    margin-top: 10%;
+}
+
+#bt3 {
+    margin-left: 10%;
+    height: 30px;
+    width: 100px;
+    margin-top: 10%;
+}
+
+#bt4 {
+    margin-left: 10%;
+    height: 30px;
+    width: 100px;
+    margin-top: 10%;
+}
+
+#timeBt {
+    margin-left: 10%;
+    height: 30px;
+    width: 100px;
+    margin-top: 10%;
+}
+
+#photo1Bt {
+    margin-left: 10%;
+    height: 30px;
+    width: 100px; 
+    margin-top: 10%; 
+}
+
+#photo2Bt {
+    margin-left: 10%;
+    height: 30px;
+    width: 100px;
+    margin-top: 10%;
+}
+
+#photo3Bt {
+    margin-left: 10%;
+    height: 30px;
+    width: 100px;
+    margin-top: 10%;
+}
+
+/*color changing buttons*/
+#bt1:focus {
+    background-color: #1eec1e;
+}
+#bt2:focus {
+    background-color: #1eec1e;
+}
+#bt3:focus {
+    background-color: #1eec1e;
+}
+#bt4:focus {
+    background-color: #1eec1e;
+}
+#timeBt:focus {
+    background-color: #1eec1e;
+}
+#photo1Bt:focus {
+    background-color: #1eec1e;
+}
+#photo2Bt:focus {
+    background-color: #1eec1e;
+}
+#photo3Bt:focus {
+    background-color: #1eec1e;
+}

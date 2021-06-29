@@ -1,4 +1,4 @@
-/*This code is copy righted under Kibblez inc.© and if you steel the contents of it, kneecaps will be broken!*/
+
 
 /*The color changing buttons machines*/
 document.getElementById("bt1").onclick = function() {
